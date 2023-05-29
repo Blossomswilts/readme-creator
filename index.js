@@ -92,15 +92,14 @@ ${response.contribution}
 ${response.test}
 
 ## License
-${response.license}\n
-https://choosealicense.com/licenses/${response.license.toLowerCase()}/
+[${response.license}](https://choosealicense.com/licenses/${response.license.toLowerCase()}/)
 
 ## Questions
-If you have any questions, or inquiries, please contact me at the following:
-GitHub: [${response.github}](ctrl+click to follow link, where you can see this user's repositories and profile)
-    
+If you have any questions, or inquiries, please contact me at the following:  
 
-Email: ${response.email}(ctrl+click to send email to this address with your default email client or copy and paste address into your email client)
+github: [${response.github}](https://github.com/${response.github.toLowerCase()})
+
+Email: ${response.email}
 
 `;
             //This function will write the README file with provided data in created folder

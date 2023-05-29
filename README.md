@@ -19,7 +19,6 @@ You will need to run `npm install` which will install the following package depe
 * `inquirer` : this will be the prompts and inputs of the application.
 * `fs` : this will be what writes the actual README.md file.
 
-
 ## Usage
 In order to run the program, after obtaining all of the dependancies you will need to run;
 * `node index.js` : this will begin the program in your terminal, and prompt you to answer multiple inputs to best create a new README file. 
@@ -38,9 +37,7 @@ As a side note, when making changes, always merge or pull from the latest versio
 test
 
 ## License
-MIT
-
-https://choosealicense.com/licenses/mit/
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Questions
 If you have any questions, or would like to show off some of your work, don't hesitate to message me through any of the following contacts!
