@@ -77,6 +77,8 @@ ${response.description}
 * [License](#license)
 * [Questions](#questions)
 
+![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)
+
 ## Installation
 ${response.installation}
 
@@ -93,9 +95,11 @@ ${response.test}
 ${response.license}
 
 ## Questions
-GitHub: [${response.github}](
+If you have any questions, or inquiries, please contact me at the following:
+GitHub: [${response.github}](ctrl+click to follow link, where you can see this user's repositories and profile)
+    
 
-Email: ${response.email}
+Email: ${response.email}(ctrl+click to send email to this address with your default email client or copy and paste address into your email client)
 
 `;
             //This function will write the README file with provided data
