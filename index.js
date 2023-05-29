@@ -93,6 +93,7 @@ ${response.test}
 
 ## License
 ${response.license}
+https://choosealicense.com/licenses/${response.license.toLowerCase()}/
 
 ## Questions
 If you have any questions, or inquiries, please contact me at the following:
@@ -111,3 +112,6 @@ Email: ${response.email}(ctrl+click to send email to this address with your defa
 init();
 
 
+//_______________________________Comments______________________________________________________________
+//https://choosealicense.com/licenses/${response.license.toLowerCase()}/ this will link whatever license the user chooses to the license page on choosealicense.com
+//https://img.shields.io/badge/License-${response.license}-yellow.svg this will create the badge for the license the user chooses with a gray and yellow color scheme
