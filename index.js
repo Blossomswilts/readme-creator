@@ -92,7 +92,7 @@ ${response.contribution}
 ${response.test}
 
 ## License
-${response.license}
+${response.license}\n
 https://choosealicense.com/licenses/${response.license.toLowerCase()}/
 
 ## Questions
@@ -103,8 +103,8 @@ GitHub: [${response.github}](ctrl+click to follow link, where you can see this u
 Email: ${response.email}(ctrl+click to send email to this address with your default email client or copy and paste address into your email client)
 
 `;
-            //This function will write the README file with provided data
-            writeToFile('README.md', readme);
+            //This function will write the README file with provided data in created folder
+            writeToFile('./created/README.md', readme);
         });
 }
 
