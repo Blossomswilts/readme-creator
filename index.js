@@ -58,6 +58,52 @@ function writeToFile(fileName, data) {
     });
 }
 
+//_______________________________Function to initialize app_______________________________________
+function init() {
+    inquirer.prompt(questions)
+        .then((response) => {
+            //This will create the README file layout with the user's input
+            const readme = `
+# ${response.title}
 
+## Description
+${response.description}
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [License](#license)
+* [Questions](#questions)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## Contribution
+${response.contribution}
+
+## Test
+${response.test}
+
+## License
+${response.license}
+
+## Questions
+GitHub: [${response.github}](
+
+Email: ${response.email}
+
+`;
+            //This function will write the README file with provided data
+            writeToFile('README.md', readme);
+        });
+}
+
+//_______________________________Function call to initialize app_______________________________________
+init();
 
 
