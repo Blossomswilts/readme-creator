@@ -65,6 +65,7 @@ function init() {
             //This will create the README file layout with the user's input
             const readme = `
 # ${response.title}
+![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)
 
 ## Description
 ${response.description}
@@ -77,7 +78,6 @@ ${response.description}
 * [License](#license)
 * [Questions](#questions)
 
-![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)
 
 ## Installation
 ${response.installation}
