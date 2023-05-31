@@ -8,6 +8,7 @@ This application, which is made in node.js, will ask you a series of questions. 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
+* [Walkthrough](#walkthrough)
 * [Screenshots](#screenshots)
 * [License](#license)
 * [Questions](#questions)
@@ -33,9 +34,15 @@ If you would like to contribute to this project, and improve it in your own way(
 
 As a side note, when making changes, always merge or pull from the latest version to ensure you are working on the most up to date version of the application. 
 
+## Walkthrough
+
+[Link to walkthough](https://drive.google.com/file/d/1GoUcj6woOQfCRPcLIqDQJlt9Cz2Eu6iC/view?usp=sharing)
+
 ## Screenshots
 This shows the terminal program, and what questions will be asked. 
 ![ReadMeGen1](https://github.com/Blossomswilts/readme-creator/assets/117021869/9592397c-dd9c-46af-a226-efd6039f604b)
+
+
 This shows the example readme file, and how it will present. 
 ![ReadMeGen2](https://github.com/Blossomswilts/readme-creator/assets/117021869/5274cde6-1e98-43a8-b379-e1aa95baa9ac)
 
